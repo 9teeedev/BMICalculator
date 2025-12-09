@@ -40,10 +40,10 @@ namespace BMICalculator
 
             double bmi = CalculateBMI(weightDouble, heightDouble);
             ResultBMI.Text = bmi.ToString("0.00");
-            
+
             // รีเซ็ตสีปุ่มก่อนกำหนดค่าใหม่
             button1.BackColor = SystemColors.GradientActiveCaption;
-            
+
             if (bmi < 18.5)
             {
                 ResultTextBMI.Text = "ผอมเกินไป";

@@ -9,7 +9,7 @@ namespace BMICalculator
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("ยินดีต้อนรับสู่โปรแกรมคำนวณค่า BMI");
         }
 
         private void button1_Click(object sender, EventArgs e)

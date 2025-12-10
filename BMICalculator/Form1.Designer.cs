@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             groupBox1 = new GroupBox();
-            label1 = new Label();
-            WeightInput = new TextBox();
-            label2 = new Label();
-            label3 = new Label();
-            HeightInput = new TextBox();
-            button1 = new Button();
             label4 = new Label();
             ResultTextBMI = new TextBox();
             label5 = new Label();
             ResultBMI = new TextBox();
+            button1 = new Button();
+            label3 = new Label();
+            HeightInput = new TextBox();
+            label2 = new Label();
+            WeightInput = new TextBox();
+            label1 = new Label();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -60,64 +60,6 @@
             groupBox1.TabIndex = 0;
             groupBox1.TabStop = false;
             groupBox1.Text = "BMI Calculator";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Kanit", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(265, 28);
-            label1.Name = "label1";
-            label1.Size = new Size(337, 33);
-            label1.TabIndex = 0;
-            label1.Text = "โปรแกรมคำนวนค่าดัชนีมวลกาย - BMI";
-            // 
-            // WeightInput
-            // 
-            WeightInput.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            WeightInput.Location = new Point(87, 94);
-            WeightInput.Name = "WeightInput";
-            WeightInput.Size = new Size(656, 31);
-            WeightInput.TabIndex = 1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Kanit", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(87, 71);
-            label2.Name = "label2";
-            label2.Size = new Size(52, 20);
-            label2.TabIndex = 2;
-            label2.Text = "น้ำหนัก :";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Kanit", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(87, 135);
-            label3.Name = "label3";
-            label3.Size = new Size(51, 20);
-            label3.TabIndex = 4;
-            label3.Text = "ส่วนสูง :";
-            // 
-            // HeightInput
-            // 
-            HeightInput.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            HeightInput.Location = new Point(87, 158);
-            HeightInput.Name = "HeightInput";
-            HeightInput.Size = new Size(656, 31);
-            HeightInput.TabIndex = 3;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.GradientActiveCaption;
-            button1.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(87, 217);
-            button1.Name = "button1";
-            button1.Size = new Size(656, 41);
-            button1.TabIndex = 5;
-            button1.Text = "Calculate BMI";
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // label4
             // 
@@ -155,6 +97,64 @@
             ResultBMI.Size = new Size(656, 31);
             ResultBMI.TabIndex = 6;
             // 
+            // button1
+            // 
+            button1.BackColor = SystemColors.GradientActiveCaption;
+            button1.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(87, 217);
+            button1.Name = "button1";
+            button1.Size = new Size(656, 41);
+            button1.TabIndex = 5;
+            button1.Text = "Calculate BMI";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Kanit", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(87, 135);
+            label3.Name = "label3";
+            label3.Size = new Size(51, 20);
+            label3.TabIndex = 4;
+            label3.Text = "ส่วนสูง :";
+            // 
+            // HeightInput
+            // 
+            HeightInput.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            HeightInput.Location = new Point(87, 158);
+            HeightInput.Name = "HeightInput";
+            HeightInput.Size = new Size(656, 31);
+            HeightInput.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Kanit", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(87, 71);
+            label2.Name = "label2";
+            label2.Size = new Size(52, 20);
+            label2.TabIndex = 2;
+            label2.Text = "น้ำหนัก :";
+            // 
+            // WeightInput
+            // 
+            WeightInput.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            WeightInput.Location = new Point(87, 94);
+            WeightInput.Name = "WeightInput";
+            WeightInput.Size = new Size(656, 31);
+            WeightInput.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Kanit", 15.7499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(265, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(337, 33);
+            label1.TabIndex = 0;
+            label1.Text = "โปรแกรมคำนวนค่าดัชนีมวลกาย - BMI";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -162,7 +162,7 @@
             ClientSize = new Size(1135, 638);
             Controls.Add(groupBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "BMI Calculator";
             Load += Form1_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

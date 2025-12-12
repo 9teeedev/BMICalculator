@@ -30,6 +30,8 @@
         {
             groupBox1 = new GroupBox();
             label4 = new Label();
+            label6 = new Label();
+            ResultDetailBMI = new TextBox();
             ResultTextBMI = new TextBox();
             label5 = new Label();
             ResultBMI = new TextBox();
@@ -71,6 +73,16 @@
             label4.TabIndex = 9;
             label4.Text = "ผลทดสอบ :";
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Kanit", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label6.Location = new Point(87, 300);
+            label6.Name = "label6";
+            label6.Size = new Size(69, 20);
+            label6.TabIndex = 9;
+            label6.Text = "รายละเอียด :";
+            // 
             // ResultTextBMI
             // 
             ResultTextBMI.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -78,6 +90,14 @@
             ResultTextBMI.Name = "ResultTextBMI";
             ResultTextBMI.Size = new Size(656, 31);
             ResultTextBMI.TabIndex = 8;
+            // 
+            // ResultDetailBMI
+            // 
+            ResultDetailBMI.Font = new Font("Kanit", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ResultDetailBMI.Location = new Point(87, 323);
+            ResultDetailBMI.Name = "ResultDetailBMI";
+            ResultDetailBMI.Size = new Size(656, 31);
+            ResultDetailBMI.TabIndex = 8;
             // 
             // label5
             // 
@@ -182,5 +202,7 @@
         private TextBox ResultTextBMI;
         private Label label5;
         private TextBox ResultBMI;
+        private Label label6;
+        private TextBox ResultDetailBMI;
     }
 }
